@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * functio - prints numbers between 0 to 14
+ * more_numbers - prints numbers between 0 to 14
  * 10 times.
- * Return: void
+ * Return: none
  */
 void more_numbers(void)
 {
