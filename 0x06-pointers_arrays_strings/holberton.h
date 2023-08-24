@@ -1,37 +1,17 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef HOLBERTON_H_
+#define HOLBERTON_H_
 
-#include <stdarg.h> /* va_list */
-#include <stdlib.h> /* malloc, free */
-#include <unistd.h> /* write */
-
-/* helper functions */
-char* (*get_func(char i))(va_list);
-char *create_buffer(void);
-void write_buffer(char *buffer, int len, va_list list);
-char *_strcpy(char *dest, char *src);
-int _strlen(char *s);
-
-/* printf functions */
-int _printf(const char *format, ...);
-char *print_s(va_list list);
-char *print_c(va_list list);
-char *print_d(va_list list);
-char *itob(va_list list);
-char *rot13(va_list list);
-char *rev_string(va_list list);
-char *itoOctal(va_list list);
-
-/**
- * struct types - struct
- * @id: identifier of type to print (e.g. c means char)
- * @func: ptr to functions that print according to identifier (e.g. print_c)
- */
-
-typedef struct types
-{
-	char id;
-	char* (*func)(va_list);
-} print;
+int _putchar(char c);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n);
+char *string_toupper(char *);
+char *cap_string(char *);
+void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
+char *rot13(char *);
 
 #endif
