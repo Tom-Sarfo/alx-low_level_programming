@@ -1,1 +1,1 @@
-The Alx project on argc and argv
+The Alx project on C programming
