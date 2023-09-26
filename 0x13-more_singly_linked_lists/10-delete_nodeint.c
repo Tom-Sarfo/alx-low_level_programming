@@ -1,5 +1,5 @@
 /**
- * delet_nodeint_at_index - deletes node at index
+ * delete_nodeint_at_index - deletes node at index
  * @head: double pointer to a node
  * @index: unsigned integer of position node to be deleted
  * Return: 1 if success, -1 if failure
