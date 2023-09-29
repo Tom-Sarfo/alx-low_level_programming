@@ -1,7 +1,8 @@
 /**
  * set_bit - set the value of a bit
  * @n: pointer to the value
- * @index: index of value 
+ * @index: index starting from 0.
+ *
  * Return: 1 if success, -1 if failure
  * Description: set the value of a bit to 1 at a given index
  */
